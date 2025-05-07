@@ -1,14 +1,14 @@
 <div class="flex items-center justify-center h-screen">
-    <div class="w-400">
+    <div class="w-[1500px] border-2 border-gray-500 rounded-lg shadow-2xl p-2">
         <reporting-angular-viewer
             #report
-            height="900px"
+            height="1024px" 
             [reportSource]="{
                 report: 'Samples/Dashboard',
                 parameters: {}
             }"
             serviceUrl="http://localhost:82/api/reports"
-            authenticationToken="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjBkZTNhZDRjYWY4YjRhN2NhMGU3MjkwNTk2YzlkZDQwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6ImFwcHVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJnZW50ZWJ1ZW5hQHNlY2FuZ29sYS5hbyIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiUlBPNVpFTVNNNTJJR0VLQkNITkozNE5USFhKV1I0SkkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJSZXBvcnQgUmVhZGVyIiwiYW1yIjoicHdkIiwiZXhwIjoxNzQ2NjI2NTQ5LCJpc3MiOiJSZXBvcnRTZXJ2ZXIiLCJhdWQiOiJTZXJ2aWNlQWdlbnQifQ.1dNFazTYK0zdRArIOkJNRS_9HvQ8PROKT5bZZe8eTO8"
+            authenticationToken="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjBkZTNhZDRjYWY4YjRhN2NhMGU3MjkwNTk2YzlkZDQwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6ImFwcHVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJnZW50ZWJ1ZW5hQHNlY2FuZ29sYS5hbyIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiUlBPNVpFTVNNNTJJR0VLQkNITkozNE5USFhKV1I0SkkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJSZXBvcnQgUmVhZGVyIiwiYW1yIjoicHdkIiwiZXhwIjoxNzQ2NjMwNTcwLCJpc3MiOiJSZXBvcnRTZXJ2ZXIiLCJhdWQiOiJTZXJ2aWNlQWdlbnQifQ.h_T9omf_niekiM4s8MT-mD3N65wxLSLKeR03i2su6R4"
             viewMode="interactive"
             [keepClientAlive]="true">
         </reporting-angular-viewer>
